@@ -7,5 +7,6 @@ export default defineConfig({
     coverage: {
       exclude: ['build/**'],
     },
+    environmentMatchGlobs: [['src/http/controllers/**', 'prisma']],
   },
 })
